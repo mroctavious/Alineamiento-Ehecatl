@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo -e "Bienvenido a Ehecatl, Alineamiento de secuencias\nIngrese la direccion absoluta"
+read fasta
+echo -e "Ingrese el prefijo deseado: "
+read prefix
+mkdir $prefix && cd $prefix
+bowtie2-build $fasta $prefix
+echo -e "Listo! se han creado los archivos .bt2, El siguiente paso es  "
+
+
+
