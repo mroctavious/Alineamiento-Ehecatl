@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "Bienvenido a Ehecatl, Alineamiento de secuencias\nIngrese la direccion absoluta"
+echo -e "Bienvenido a Ehecatl\n####################\n####\n##\n#Recuerda tener tus FASTQ listos!, Alineamiento de secuencias\nIngrese la direccion ABSOLUTA del archiva FASTA"
 read fasta
 echo -e "Ingrese el prefijo deseado: "
 read prefix
